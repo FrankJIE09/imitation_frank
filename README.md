@@ -35,6 +35,7 @@
 
 ## 运行方法示例
 ```bash
+cd imitation_examples
 # 训练 RL 专家
 python elfin5_rl_expert.py
 
