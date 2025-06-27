@@ -15,7 +15,7 @@ import mujoco.viewer
 import sys
 
 # elfin5 机械臂 MJCF 模型文件路径
-MODEL_PATH = os.path.join(os.path.dirname(__file__), '../xacro-to-urdf-to-mjcf-converter/mjcf_models/elfin5/elfin5.xml')
+MODEL_PATH = os.path.join(os.path.dirname(__file__), '../xacro-to-urdf-to-mjcf-converter/mjcf_models/elfin5/elfin5_with_sphere.xml')
 
 class Elfin5ReachEnv(gym.Env):
     """
